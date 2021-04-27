@@ -1,0 +1,49 @@
+html, body, h1, p{
+	margin:0;
+	padding:0;
+}
+
+h1{
+	padding:10px 100px;
+}
+
+p{
+	background-color:white;
+	margin: 10px 100px;
+	padding: 10px 10px;
+	border: 1px solid #b3b3b3;
+	border-radius: 4px;
+}
+
+span{
+	display:inline-block;
+	width:33%;
+}
+
+.productsContainer{
+	padding:50px;
+	background-color:#d3d3d3;
+}
+
+#line{
+	width:50px;
+	margin-left:100px;
+	border-bottom:1px solid;
+}
+#toggleDarkMode{
+	width:auto;
+	display:inline-block;
+	padding:10px;
+	margin-left:100px;
+	border:1px solid;
+	user-select: none;
+}
+
+.darkMode{
+	background-color:#333;
+	color:white;
+}
+.darkModeP{
+	background-color:#444;
+	color:white;
+}
